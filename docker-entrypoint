@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 if [ ! -f app/config/config.php ]; then
   cp app/config/config.example.php app/config/config.php
 fi
